@@ -5,7 +5,6 @@ import { AspectRatio } from "@/components/ui/aspect-ratio"
 import ReactPlayer from 'react-player/youtube'
 import { heroBanner } from "@/assets"
 import { CirclePlay } from "lucide-react"
-import { start } from "repl"
 
 /** Node modules */
 import { useRef } from "react"

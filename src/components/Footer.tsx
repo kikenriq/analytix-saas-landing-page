@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className='grid grid-cols-2 gap-x-2 gap-y-8 text-sm
                 sm:grid-cols-4 lg:col-span-3'>
                     {footerData.links.map(({ title, items }, index) =>(
-                        <ul>
+                        <ul key={index}>
                             <p className='mb-4'>{title}</p>
 
                             {items.map(({href, label}, index) => (

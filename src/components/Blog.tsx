@@ -11,10 +11,7 @@ import {
 
 import { Badge } from "@/components/ui/badge"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
-  
-
 import * as variants from '@/lib/motionVariants'
-import { Divide } from "lucide-react"
 
 const Blog = () => {
   return (

@@ -1,7 +1,5 @@
 import {
   motion,
-  SpringOptions,
-  useSpring,
   useMotionValue,
   frame,
 } from "motion/react";
